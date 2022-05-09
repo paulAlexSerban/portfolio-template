@@ -30,8 +30,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy to Main
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: Main
-          folder: .
+      # - name: Deploy to Main
+      #   uses: JamesIves/github-pages-deploy-action@4.1.1
+      #   with:
+      #     branch: Main
+      #     folder: release
