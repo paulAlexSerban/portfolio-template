@@ -23,9 +23,3 @@ jobs:
 
       - name: Install
         run: npm run install:dependencies:ci
-
-      - name: Deploy to Test
-        uses: JamesIves/github-pages-deploy-action@4.1.1
-        with:
-          branch: test
-          folder: .
