@@ -1,5 +1,5 @@
 {
-  "name": "tpl--business-web-app",
+  "name": "tpl--basic-prjusiness-web-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulAlexSerban/tpl--business-web-app.git"
+    "url": "git+https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulAlexSerban/tpl--business-web-app/issues"
+    "url": "https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app/issues"
   },
-  "homepage": "https://github.com/paulAlexSerban/tpl--business-web-app#readme",
+  "homepage": "https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
