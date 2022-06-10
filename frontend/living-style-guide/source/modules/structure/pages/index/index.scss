@@ -1,0 +1,21 @@
+// Import settings and tools
+@import "../../../../abstracts/abstracts.scss";
+
+// Import generic styles (base, reset, normalize)
+@import "../../../../generics/generics.scss";
+
+// Import themes CSS custom properties
+@import "../../themes/main.theme.scss";
+
+// Import grid
+@import "../../grid/column-grid.layer.grid.scss";
+
+// Import layouts
+@import "../../layouts/aspect-ratio-card.scss";
+@import "../../layouts/clamping-card.scss";
+@import "../../layouts/deconstructed-pancake.scss";
+@import "../../layouts/holy-grail-layout.scss";
+// ... so far imported for POC reasons - layout should be imported only if used to avoid unnecessary css rules
+
+// Import template
+@import "../../templates/generic/generic.template.layer.scss";

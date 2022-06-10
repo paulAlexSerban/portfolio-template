@@ -1,0 +1,12 @@
+// Import settings and tools
+@import "../../../abstracts/abstracts.scss";
+/// Grid mixin
+/// NOTE - uncomment only if used to avoid bloating the stylesheets
+// SCSS variable to set the number of columns
+$breakpoints: $column-grid-12;
+
+@include generate-grid();
+@include make-grid-columns($breakpoints, $grid-gutter);
+@include no-gutter();
+@include hang($grid-gutter);
+@include grid-aspect-ratio();
