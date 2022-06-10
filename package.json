@@ -1,24 +1,33 @@
 {
-  "name": "tpl--basic-prjusiness-web-app",
+  "name": "tpl--basic-prj",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo 'Error: no test specified'",
     "prepare": "husky install",
+    "//":"INSTALL",
     "install:dependencies:ci": "npm ci --omit=dev --ignore-scripts",
-    "install:dependencies:dev": "npm install"
+    "install:dependencies:dev": "npm install",
+    "////": "DOCKER",
+    "start:clean:compose":"docker-compose --env-file config.env build --no-cache --pull",
+    "start:compose": "npm run dev:frontend:fsg && docker-compose --env-file config.env up -d --build",
+    "stop:compose": "docker-compose --env-file config.env down --volumes --rmi all",
+    "///":"DEV",
+    "dev:frontend:fsg":"npm --prefix frontend/frontend-style-guide run dev:fsg",
+    "/////":"WATCH",
+    "watch:frontend:fsg":"npm --prefix frontend/frontend-style-guide run watch:fsg"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app.git"
+    "url": "git+https://github.com/paulAlexSerban/tpl--basic-prj.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app/issues"
+    "url": "https://github.com/paulAlexSerban/tpl--basic-prj/issues"
   },
-  "homepage": "https://github.com/paulAlexSerban/tpl--basic-prjusiness-web-app#readme",
+  "homepage": "https://github.com/paulAlexSerban/tpl--basic-prj#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
