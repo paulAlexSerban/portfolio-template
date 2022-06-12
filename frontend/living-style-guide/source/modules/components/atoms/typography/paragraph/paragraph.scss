@@ -1,3 +1,6 @@
+@import "../../../../../abstracts/abstracts.scss";
+$breakpoints: $column-grid-12;
+
 $cmp: "a-paragraph";
 
 .#{$cmp} {
