@@ -11,3 +11,8 @@
 
 ### Front-end Style Guide
 1. `npm run watch:frontend:fsg` - start watchers to develop and preview in Storybook Style Guide
+
+## NOTES
+- in Docker Desktop -> Settings -> Resources
+  - CPUs: 4
+  - Memory: 8.00 GBs
