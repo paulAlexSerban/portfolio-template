@@ -1,5 +1,5 @@
 import { createParagraph } from "./Paragraph.create";
-import Paragraph from './../Paragraph.mdx';
+import Paragraph from './Paragraph.mdx';
 import { mock } from "./Paragraph.mock";
 
 export default {

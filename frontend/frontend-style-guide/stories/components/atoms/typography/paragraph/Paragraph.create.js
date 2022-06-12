@@ -1,4 +1,5 @@
-import "./atom.scss";
+import "../../../../structure/themes/main.theme.scss";
+import "./paragraph.scss";
 
 export const createParagraph = ({ content }) => {  
   const innerContent = content
