@@ -16,5 +16,13 @@ $cmp: "a-heading";
     @include m("heading-400") {
       @include font($heading-400);
     }
+
+    @include m("is-center-aligned") {
+      @extend %center-text;
+    }
+
+    @include m("is-right-aligned") {
+      @extend %right-text;
+    }
   }
 }

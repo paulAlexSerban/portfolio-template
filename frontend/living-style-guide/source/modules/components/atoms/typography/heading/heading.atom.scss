@@ -3,10 +3,10 @@
 @import "../../../../../generics/generics.scss";
 
 // Base component code
-@import "./heading.basic.scss";
+@import "./heading.scss";
 
 // TYPES (Normal Emphasized Informative Warning Alert Error Success)
-@import "./heading.basic.types.scss";
+@import "./heading.types.scss";
 
 // STATES (states of interactive elements)
 // :default, ::placeholder, :placeholder-shown, :blank, :indeterminate, :checked, :optional,

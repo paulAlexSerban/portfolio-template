@@ -1,4 +1,4 @@
-import "./atom.scss";
+import "./heading.atom.scss";
 
 export const createHeading = ({
   level = 1,
@@ -9,7 +9,7 @@ export const createHeading = ({
 }) => {
   const headingLevel = level === 0 ? 1 : level;
   let mainHeadingText = mainHeading ? mainHeading : `H${headingLevel} heading  \w ${type ? type : "heading-100"} formatting`;
-  let headingType = type ? `a-heading__base--${type}` : "a-heading__base--heading-200";
+  let headingType = type ? `a-heading__base--${type}` : "a-heading__base--heading-100";
   let textAlign = align !== "left" ? `a-heading__base--is-${align}-aligned `: "";
 
   const heading = `

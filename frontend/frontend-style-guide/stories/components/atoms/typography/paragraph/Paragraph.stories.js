@@ -1,5 +1,4 @@
 import { createParagraph } from "./Paragraph.create";
-import ParagraphMdx from './Paragraph.mdx';
 import { mock } from "./Paragraph.mock";
 
 export default {
@@ -12,12 +11,8 @@ export default {
   },
   args: {
     content: mock.basic
-  },
-  parameters: {
-    docs: {
-      page: ParagraphMdx,
-    },
   }
 };
 
-export const Paragraph  = (args) => createParagraph(args);
+const Template  = (args) => createParagraph(args);
+export const Base = Template.bind({});

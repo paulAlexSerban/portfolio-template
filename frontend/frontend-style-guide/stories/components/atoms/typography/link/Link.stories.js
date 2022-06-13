@@ -1,5 +1,4 @@
 import { createLink } from "./Link.create";
-import LinkMdx from "./Link.mdx";
 
 export default {
   title: "Components/Atoms/Typography/Link",
@@ -8,12 +7,8 @@ export default {
     href: { control: "text" },
     target: { control: "select", options: ["_blank", "_self"] },
     type: { control: "select", options: ["storybook", "basic"] },
-  },
-  parameters: {
-    docs: {
-      page: LinkMdx,
-    },
   }
 };
 
-export const Link = (args) => createLink(args);
+const Template = (args) => createLink(args);
+export const Base = Template.bind({});
