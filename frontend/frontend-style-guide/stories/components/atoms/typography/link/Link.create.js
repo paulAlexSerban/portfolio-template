@@ -1,4 +1,4 @@
-import "./atom.scss";
+import "./link.atom.scss";
 
 export const createLink = ({ text, href, target, type }) => {
   const innerText = text !== undefined ? text : "Lorem Ipsum Link.";

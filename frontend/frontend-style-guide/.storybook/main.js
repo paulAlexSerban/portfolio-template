@@ -19,10 +19,7 @@ module.exports = {
           implementation: require("postcss"),
         },
         sassLoaderOptions: {
-          implementation: require("sass"),
-          sassOptions: {
-            includePaths: ["./dist"],
-          },
+          implementation: require("sass")
         },
       },
     },

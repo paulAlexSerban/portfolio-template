@@ -1,25 +1,23 @@
 import { createParagraph } from "./Paragraph.create";
-import Paragraph from './Paragraph.mdx';
+import ParagraphMdx from './Paragraph.mdx';
 import { mock } from "./Paragraph.mock";
 
 export default {
-  title: "Components/Atoms/Paragraph",
+  title: "Components/Atoms/Typography/Paragraph",
   argTypes: {
     content: {
       control: "text",
       description: "Text that will be displayed in the paragraph"
     },
   },
+  args: {
+    content: mock.basic
+  },
   parameters: {
     docs: {
-      page: Paragraph,
+      page: ParagraphMdx,
     },
   }
 };
 
-const Template = (args) => createParagraph(args);
-
-export const Basic = Template.bind({});
-Basic.args = {
-  content: mock.basic
-};
+export const Paragraph  = (args) => createParagraph(args);
