@@ -1,6 +1,8 @@
 # Basic Project Template
 
 - [traefik dashboard](http://localhost:8080/dashboard)
+- [wordpress - landing page](https://wordpress-landing-page-basic-prj.localhost/)
+- [phpmyadmin](https://phpmyadmin-basic-prj.localhost/)
 - [storybook style guide](https://frontend-style-guide-basic-prj.localhost/)
 
 ## Develop
