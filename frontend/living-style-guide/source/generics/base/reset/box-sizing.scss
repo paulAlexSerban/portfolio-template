@@ -14,10 +14,9 @@
 *::after {
   @extend %margin-reset; /* 1 */
   @extend %padding-reset; /* 1 */
-
-  box-sizing: border-box; /* 2 */
+  @extend %box-sizing; /* 2 */
 }
 
 html {
-  box-sizing: border-box; /* 3 */
+  @extend %box-sizing; /* 3 */
 }

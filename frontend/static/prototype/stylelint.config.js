@@ -100,7 +100,7 @@ module.exports = {
           "list.index",
           "map.keys",
           "map.merge",
-          "math.div",
+          "math",
           "layer-index",
           "z",
           "unique-id",

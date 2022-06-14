@@ -10,13 +10,14 @@ import autoprefixer from "autoprefixer";
 import stripCssComments from "gulp-strip-css-comments";
 import sassInheritance from "gulp-sass-multi-inheritance";
 import changed from "gulp-changed";
+import prettier from 'gulp-prettier';
 
 const sass = gulpSass(dartSass);
 const plugins = [autoprefixer()];
 
-export const compileScss = () => {
+export const compileScssLayers = () => {
   return (
-    src(paths.src.styles.scssPages)
+    src(paths.src.styles.scssLayers)
       .pipe(changed(paths.dist.dir))
       .pipe(sassInheritance({ dir: paths.src.styles.scssDir }))
       .pipe(plumber())
@@ -24,11 +25,12 @@ export const compileScss = () => {
       .pipe(postcss(plugins))
       .pipe(
         rename((file) => {
-          file.dirname = `css`;
+          file.dirname = `css/layers`;
         })
       )
-      .pipe(debug({ title: "compileScss : " }))
+      .pipe(debug({ title: "compileScssLayers : " }))
       .pipe(stripCssComments())
+      .pipe(prettier())
       .pipe(dest(paths.dist.dir))
   );
 };

@@ -1,5 +1,3 @@
-@use "sass:math";
-
 $type: "o";
 $block: "#{$type}-article";
 
@@ -9,6 +7,6 @@ $block: "#{$type}-article";
 
     padding: ($baseline * 9) ($gutter * 1.5);
     margin: 0 auto;
-    max-width: math.div($max-width, 2);
+    max-width: $max-width / 2;
   }
 }

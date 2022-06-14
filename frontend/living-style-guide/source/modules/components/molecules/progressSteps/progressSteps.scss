@@ -1,6 +1,6 @@
 @use "sass:math";
 
-.m-progress-steps {
+.m-progressSteps {
   &__container {
     @include flex($direction: column);
 

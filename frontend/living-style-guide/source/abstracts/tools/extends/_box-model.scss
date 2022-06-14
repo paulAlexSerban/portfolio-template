@@ -58,3 +58,7 @@
 @include generate-placeholder("border-top-right-radius", 0, 100);
 @include generate-placeholder("border-bottom-left-radius", 0, 100);
 @include generate-placeholder("border-bottom-right-radius", 0, 100);
+
+%box-sizing {
+  box-sizing: border-box;
+}

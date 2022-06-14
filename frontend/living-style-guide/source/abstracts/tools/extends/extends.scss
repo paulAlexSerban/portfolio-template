@@ -1,3 +1,8 @@
+/**
+  * NOTE
+    - extends should not be used in mixins as you risc duplication of code
+*/
+
 @import "./box-model.scss";
 @import "./clearfix.scss";
 @import "./color.scss";
