@@ -1,0 +1,1 @@
+> `archive-${slug}.php` - will be the template for a specific post archive on the website

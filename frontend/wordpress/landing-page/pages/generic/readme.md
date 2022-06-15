@@ -1,0 +1,1 @@
+> `page-${slug}.php` - will be the template for a specific page on the website
