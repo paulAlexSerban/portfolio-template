@@ -4,15 +4,7 @@ export const es5jsLoader = {
   use: {
     loader: "babel-loader",
     options: {
-      presets: [
-        [
-          "@babel/preset-env",
-          {
-            useBuiltIns: "usage",
-            corejs: { version: "3.8", proposals: true }
-          },
-        ],
-      ],
+      presets: [["@babel/preset-env"]],
       plugins: [
         "@babel/plugin-transform-runtime",
         "@babel/plugin-proposal-object-rest-spread",

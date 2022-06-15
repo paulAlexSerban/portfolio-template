@@ -7,7 +7,7 @@ const plugins = [new webpack.ProgressPlugin()];
 export const webpackDevConfig = {
   mode: "development",
   cache: true,
-  devtool: false,
+  // devtool: false, /* uncomment if source mapping is not desired */
   module: {
     rules: [es5jsLoader],
   },
