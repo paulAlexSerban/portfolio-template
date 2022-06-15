@@ -1,24 +1,46 @@
 {
-  "name": "tpl--business-web-app",
+  "name": "tpl--basic-prj",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo 'Error: no test specified'",
     "prepare": "husky install",
     "install:dependencies:ci": "npm ci --omit=dev --ignore-scripts",
-    "install:dependencies:dev": "npm install"
+    "install:dependencies:dev": "npm install",
+    "/":"START - Docker Compose",
+    "start:compose:proxy": "bash package-scripts.bash startComposeProxy",
+    "start:compose:wordpress": "bash package-scripts.bash startComposeWordpress",
+    "start:compose:fsg": "bash package-scripts.bash startComposeFsg",
+    "start:compose:prototype": "bash package-scripts.bash startPrototype",
+    "start:compose:whoami": "bash package-scripts.bash startWhoami",
+    "////":"STOP - Docker Compose",
+    "stop:compose:proxy": "bash package-scripts.bash stopComposeProxy",
+    "stop:compose:wordpress": "bash package-scripts.bash stopComposeWordpress",
+    "stop:compose:fsg": "bash package-scripts.bash stopComposeFsg",
+    "stop:compose:prototype": "bash package-scripts.bash stopPrototype",
+    "stop:compose:whoami": "bash package-scripts.bash stopWhoami",
+    "/////":"CLEAN",
+    "clean:wordpress": "rm -rfv backend/database/mysql/dist && rm -rfv backend/wordpress/landing-page/dist",
+    "///":"CONFIG",
+    "config:compose:landingPage": "bash package-scripts.bash configWordpressLandingpage",
+    "//":"DEVELOP",
+    "dev:frontend:fsg":"npm --prefix frontend/frontend-style-guide run dev:fsg",
+    "build:frontend:prototype": "npm --prefix frontend/static/prototype run build:prototype",
+    "watch:frontend:fsg":"npm --prefix frontend/frontend-style-guide run watch:fsg",
+    "watch:frontend:prototype:styles": "npm --prefix frontend/static/prototype run watch:prototype:styles",
+    "watch:frontend:prototype": "npm --prefix frontend/static/prototype run watch:prototype"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulAlexSerban/tpl--business-web-app.git"
+    "url": "git+https://github.com/paulAlexSerban/tpl--basic-prj.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulAlexSerban/tpl--business-web-app/issues"
+    "url": "https://github.com/paulAlexSerban/tpl--basic-prj/issues"
   },
-  "homepage": "https://github.com/paulAlexSerban/tpl--business-web-app#readme",
+  "homepage": "https://github.com/paulAlexSerban/tpl--basic-prj#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
