@@ -6,6 +6,7 @@
   - [wp - admin page](https://wordpress-landing-page-basic-prj.localhost/wp-admin/)
 - [phpmyadmin](https://phpmyadmin-basic-prj.localhost/)
 - [storybook style guide](https://frontend-style-guide-basic-prj.localhost/)
+- [static-prototype](https://prototype-basic-prj.localhost/)
 
 ## Develop
 
