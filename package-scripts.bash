@@ -28,6 +28,13 @@ function startPrototype() {
     up --detach --build
 }
 
+function startWhoami() {
+    docker compose --env-file config.env \
+    --file docker/docker-compose.proxy.yml \
+    --file docker/docker-compose.whoami.yml \
+    up --detach --build
+}
+
 # Configure Wordpress Project
 function configWordpressLandingpage() {
   docker compose --env-file config.env \
@@ -60,6 +67,12 @@ function stopComposeFsg() {
 function stopPrototype() {
   docker compose --env-file config.env \
     --file docker/docker-compose.prototype.yml \
+    down --volumes --rmi all
+}
+
+function stopWhoami() {
+  docker compose --env-file config.env \
+    --file docker/docker-compose.whoami.yml \
     down --volumes --rmi all
 }
 
