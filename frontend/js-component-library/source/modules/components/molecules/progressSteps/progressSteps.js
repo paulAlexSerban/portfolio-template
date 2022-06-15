@@ -14,24 +14,16 @@ export const ProgressSteps = (el) => {
   const setupEvents = () => {
     next.addEventListener("click", () => {
       currentActive++;
-  
-      if (currentActive > circles.length) {
-        currentActive = circles.length;
-      }
-  
+      if (currentActive > circles.length) currentActive = circles.length;
       update();
     });
 
     prev.addEventListener("click", () => {
       currentActive--;
-  
-      if (currentActive < 1) {
-        currentActive = 1;
-      }
-  
+      if (currentActive < 1) currentActive = 1;
       update();
     });
-  }
+  };
 
   const update = () => {
     circles.forEach((circle, idx) => {
@@ -55,7 +47,7 @@ export const ProgressSteps = (el) => {
       prev.disabled = false;
       next.disabled = false;
     }
-  }
+  };
 
   init();
 };
