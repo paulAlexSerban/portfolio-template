@@ -21,6 +21,11 @@ export const paths = {
         // `../../living-style-guide/source/**/templates/**/*.page.scss`,
       ],
     },
+    scripts: {
+      javaScriptDir: `../../js-component-library/source`,
+      javaScriptFiles: [`../../js-component-library/source/**/*.js`],
+      javascriptPages: [`../../js-component-library/source/**/pages/**/*.page.js`]
+    }
   },
   dist: {
     dir: `./dist`,
