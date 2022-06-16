@@ -8,6 +8,7 @@
     "prepare": "husky install",
     "install:dependencies:ci": "npm ci --omit=dev --ignore-scripts",
     "install:dependencies:dev": "npm install",
+    "install:subprojects:dev-deps": "bash package-scripts.bash installSubPrjDevDependencies",
     "/": "START - Docker Compose",
     "start:compose:proxy": "bash package-scripts.bash startComposeProxy",
     "start:compose:wordpress": "bash package-scripts.bash startComposeWordpress",

@@ -76,4 +76,9 @@ function stopWhoami() {
     down --volumes --rmi all
 }
 
+function installSubPrjDevDependencies () {
+  npm --prefix frontend/frontend-style-guide install
+  npm --prefix frontend/static/prototype install
+}
+
 $1
