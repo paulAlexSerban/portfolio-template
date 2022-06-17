@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/paulAlexSerban/tpl--basic-prj/compare/v1.2.0...v1.2.1) (2022-06-17)
+
+
+### Bug Fixes
+
+* **npm-deps:** removed npm dependencies ([dd6a87d](https://github.com/paulAlexSerban/tpl--basic-prj/commit/dd6a87d32eb90dbfb0a4232453ac95bddfe38fa2))
+* **scss-imports:** implemented css component split strategy imports for storybook ([430743f](https://github.com/paulAlexSerban/tpl--basic-prj/commit/430743f9ac5a143d87f4626290415b4bb2c38883))
+
 # [1.2.0](https://github.com/paulAlexSerban/tpl--basic-prj/compare/v1.1.0...v1.2.0) (2022-06-16)
 
 
