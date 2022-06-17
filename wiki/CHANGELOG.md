@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/paulAlexSerban/tpl--basic-prj/compare/v1.1.0...v1.2.0) (2022-06-16)
+
+
+### Features
+
+* **build:** implemmt script to install all subprojects npm modules in one comma ([8160cc8](https://github.com/paulAlexSerban/tpl--basic-prj/commit/8160cc8f952c86bfaddec66e6cc7e84d25e74f22))
+
 # [1.1.0](https://github.com/paulAlexSerban/tpl--basic-prj/compare/v1.0.0...v1.1.0) (2022-06-15)
 
 
