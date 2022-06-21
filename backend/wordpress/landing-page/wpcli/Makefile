@@ -4,7 +4,7 @@ configure:
 
 	@echo "⚙️ Configuring Wordpress parameters..."
 	wp core install \
-		--url="wordpress-landing-page-basic-prj.localhost/" \
+		--url="wordpress-landing-page-pbanf.localhost/" \
 		--title=landing-page \
 		--admin_user=wordpress \
 		--admin_password=wordpress \

@@ -1,6 +1,6 @@
 {
-  "name": "tpl--basic-prj",
-  "version": "1.2.0",
+  "name": "project-boilerplate-archetype-n-framework",
+  "version": "1.2.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -34,14 +34,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paulAlexSerban/tpl--basic-prj.git"
+    "url": "git+https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/paulAlexSerban/tpl--basic-prj/issues"
+    "url": "https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/issues"
   },
-  "homepage": "https://github.com/paulAlexSerban/tpl--basic-prj#readme",
+  "homepage": "https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework#readme",
   "devDependencies": {
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
