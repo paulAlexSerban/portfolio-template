@@ -10,6 +10,15 @@
   - CPUs: 4
   - Memory: 8.00 GBs
 
+## Start Development
+- `npm run install:root` - install root devDependencies
+- `npm run install:all` - install all build dependencies in all sub-projects
+- `npm run lint:all` - lint code
+- `npm run test:all` - test code
+- `npm run build:all` - build all sub-projects
+- `npm run start:compose:all` - start docker compose containers
+- `npm run test:containers` - test all docker containers with curl for response
+
 ## Useful Local Development URLs
 
 - [traefik dashboard](http://localhost:8080/dashboard)

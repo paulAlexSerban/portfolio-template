@@ -6,10 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
+    "chromatic": "npx chromatic --project-token=afdb943c617c",
     "build-storybook": "build-storybook --output-dir /docs",
-    "dev:fsg": "rm -rfv dist && gulp build --require @babel/register --gulpfile build",
-    "watch:fsg": "gulp watch --require @babel/register --gulpfile build",
-    "chromatic": "npx chromatic --project-token=afdb943c617c"
+    "build:fsg": "rm -rfv dist && gulp build --require @babel/register --gulpfile build",
+    "watch:fsg": "gulp watch --require @babel/register --gulpfile build"
   },
   "keywords": [],
   "author": "",
