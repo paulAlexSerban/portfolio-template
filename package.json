@@ -39,7 +39,7 @@
     "stop:compose:whoami": "bash package-scripts.bash stopWhoami",
     "📦  🟢  📦  🟢  📦  🟢 ": "PACKAGE",
     "package:clean": "rm -rfv ./docs",
-    "package:static:site": "npm run package:clean && mkdir -p docs/static/prototype && cp -rfv frontend/static/site/dist/* ./docs/static/site",
+    "package:static:prototype": "npm run package:clean && mkdir -p docs/static/prototype && cp -rfv frontend/static/prototype/dist/* ./docs/static/prototype",
     "🛑  🛑  🛑  🛑  🛑  🛑 ": "CLEAN",
     "clean:wordpress": "rm -rfv backend/database/mysql/dist && rm -rfv backend/wordpress/landing-page/dist",
     "🔧 🔧 🔧 🔧 🔧": "CONFIG",
