@@ -8,9 +8,7 @@
   },
   "scripts": {
     "lint:prototype": "gulp lint --require @babel/register --gulpfile build",
-    "transpile:javascript": "gulp transpile:javascript --require @babel/register --gulpfile build",
     "watch:prototype": "gulp watch:prototype --require @babel/register --gulpfile build",
-    "watch:prototype:styles": "gulp watch:styles --require @babel/register --gulpfile build",
     "build:prototype": "gulp build --require @babel/register --gulpfile build"
   },
   "author": "",
