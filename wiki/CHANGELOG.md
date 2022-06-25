@@ -1,3 +1,15 @@
+# [1.3.0](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/compare/v1.2.1...v1.3.0) (2022-06-25)
+
+
+### Bug Fixes
+
+* **husky:** updated husky scripts ([1ddb3c4](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/commit/1ddb3c41479afc0b18e88fd29ab06ab82cfe78f8))
+
+
+### Features
+
+* **reafactor:** refacotirng to align with template ([3eadf17](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/commit/3eadf17ea0a0ca3bc6c77842c41595846459d6d1))
+
 ## [1.2.1](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/compare/v1.2.0...v1.2.1) (2022-06-17)
 
 
