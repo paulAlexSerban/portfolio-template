@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/compare/v1.3.0...v1.3.1) (2022-06-25)
+
+
+### Bug Fixes
+
+* **deploy scripts:** fix deploy scripts ([c2681cf](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/commit/c2681cf41d1fc4804520af0227b37e91de5dbd7d))
+
 # [1.3.0](https://github.com/paulAlexSerban/project-boilerplate-archetype-n-framework/compare/v1.2.1...v1.3.0) (2022-06-25)
 
 
