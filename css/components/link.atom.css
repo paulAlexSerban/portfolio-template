@@ -1,0 +1,30 @@
+.a-link__base {
+  font-family: var(--text-regular);
+  font-size: 1rem;
+  line-height: 1.125rem;
+  font-weight: normal;
+  letter-spacing: 0.03125rem;
+  text-decoration: none;
+  color: var(--color-link);
+}
+@media only screen and (min-width: 1439px) {
+  .a-link__base {
+    font-size: 1.1875rem;
+    line-height: 27px;
+  }
+}
+@media only screen and (min-width: 1919px) {
+  .a-link__base {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+.a-link__base--storybook {
+  color: #48aaff;
+}
+
+.a-link__base:hover {
+  opacity: 0.6;
+  transition: opacity 0.2s ease-in-out;
+}
