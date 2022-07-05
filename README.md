@@ -1,14 +1,8 @@
-# Project - Boilerplate, Archetype & Framework (pbanf)
+# Portfolio Template
 
 ## About
 
 ## Dev. Notes
-
-### Docker Desktop config for local development
-
-- in Docker Desktop -> Settings -> Resources
-  - CPUs: 4
-  - Memory: 8.00 GBs
 
 ## Start Development
 - `npm run install:root` - install root devDependencies
